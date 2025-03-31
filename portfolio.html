@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta http-equiv="CONTENT-TYPE" content="text/html"; charset=UTF-8/>
+        <meta name="veiwport"content="width=device-width,initial-scale=1"/>
+      <title>PLP Hackthon exercise</title>
+      <div class="top">
+    <h2>Portfolio</h2>
+      </div>
+    </head> 
+<link rel="stylesheet" href="portfolio.css">
+   
+    
+
+    <script>
+    function opennav(){
+        document.getElementById("mysidebar").style.width="150px";
+        document.getElementById("main").style.marginLeft="0px";
+    }
+    function closenav(){
+        document.getElementById("mysidebar").style.width="0px";
+        document.getElementById("main").style.marginLeft="0px";
+    }
+    </script>
+    <body>
+      <div class="tab-container">
+        <div class="tablinks" onclick="opentab('about')"><f>About me</f></div>
+        <div class="tablinks" onclick="opentab('Education')"><f>Education</f></div>
+        <div class="tablinks" onclick="opentab('interests')"><f>Interests</f></div>
+        <div class="tablinks" onclick="opentab('projects')"><f>Projects</f></div>
+        <div class="tablinks" onclick="opentab('Contacts')"><f>Contact Me</f></div>
+       </div>
+              
+                     <!--Tab content--> 
+      
+     <div id="about" class="tab-content" class="active-tab">
+      <h2>About Me:</h2>
+     <p>Hi! I'm [name], a pasiionate developer with a love for creating 
+        functional and beautiful web experiences.</p>
+</div>
+      <div id="Education" class="tab-content">
+           <p><h2>Educational background</h2>
+            I hold a [Degree] from [your university].</p>
+      </div>
+      <div id="interests" class="tab-content">
+        <h2>Interests</h2>
+        Web Development: Exploring modern frameworks and best practices.
+        Tech innovations: Keeping up with the emerging trends in technology.
+    </p>
+      </div>
+      <div id="projects" class="tab-content">    
+        <p>
+            <h2> Projects</h2>
+            <ol type="1" >
+            <li><b>Project 1:</b>
+             <li><b>project 2:</b>           
+          </ol>
+         </p>
+      </div>
+      <div id="contacts" class="tab-content">    
+        
+</div>
+              <script>
+                    function opentab(tabId){
+                        var tabContents=document.getElementsByClassName('tab-content');
+                        for(var i=0;i<tabContents.length; i++){
+                            tabContents[i].style.display='none';
+                       }
+                        var tabs=document.getElementsByClassName('active-tab');
+                        for(var i=0;i<tabs.length;i++){
+                            tabs[i].classList.remove('active-tab');
+                        }
+                        document.getElementById(tabId).style.display='block';
+                        document.querySelector('[onclick="openTab(\''+tabId+'\')"]').classList.add('active-tab');
+                    }
+            </script>
+         
+         
+          
+    
+    </div>
+  
+        </body> 
+</div>
+</html>
+
+
+    
+
