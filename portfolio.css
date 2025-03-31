@@ -1,0 +1,87 @@
+.top{
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: purple;
+}
+h2{
+  padding-left: 50px;
+}
+button{
+  display:on-click;
+       }
+
+
+.b1{
+  margin-left: 50px;
+ }
+h3{
+  color: white black;
+  font-size: 19px;
+  margin-bottom: 2px
+}
+
+.sidebar{
+  height:50%;
+  width: 0;
+  position:relative;
+  z-index:1;
+  top: 90px;
+  left: 0;
+  background-color:rgb(39, 2, 39);
+  overflow-x: hidden;
+  padding-top: 5px;
+  transition: 0.5;
+}
+
+
+.tab-container{
+  font-size: 20px;
+  position: absolute;
+  background-color: rgb(73, 7, 73);
+  border-radius:2px;
+  border: 3px solid rgb(143, 23, 143);
+  padding: 13px 21px;
+  height: 100%;
+}
+.tablinks{
+  background-color:none;
+  cursor: pointer;
+
+  color:white black;
+  padding: 5px 10px;
+}
+f{
+   font-weight: 500;
+   color: white;
+}
+.outer{
+  padding-left: 500px;
+ position: relative;
+}
+a{
+  color: wheat blue;
+  font-family: Cambria, Cochin, Georgia, Times, serif;
+}.h3{
+  color: white black;
+  font-size: 19px;
+  margin-bottom: 2px;
+}
+
+.b1{
+  line-height: 20px;
+}
+.tab-content{
+  padding-left: 200px;
+  display: none;
+  line-height:20px ;
+
+}p{
+  position: relative;
+}
+.h4{
+  size: 15px;
+}
+html{
+  font-size: larger;
+}
